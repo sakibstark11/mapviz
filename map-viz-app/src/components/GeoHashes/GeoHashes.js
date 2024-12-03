@@ -58,6 +58,7 @@ class GeoHashes extends Component {
         var geohashes = this
             .vars
             .geohashes
+            .trim()
             .split("\n");
 
         var geohashesL = [];
